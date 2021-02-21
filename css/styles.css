@@ -1,0 +1,26 @@
+@import "left_box.css";
+@import "right_box.css";
+
+body {
+  background-color: rgb(65, 65, 65);
+  color: #34495e;
+  font-family: sans-serif;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  box-sizing: border-box;
+  padding: 5px;
+  text-align: center;
+}
+
+input:focus {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.box {
+  color: white;
+  position: absolute;
+}

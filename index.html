@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="left_box box">
+      <form class="js-form form">
+        <input type="text" placeholder="What is your name?" />
+      </form>
+      <h4 class="js-greetings greetings"></h4>
+      <div class="clock_weather">
+        <div class="js-clock">
+          <h1>00:00</h1>
+        </div>
+        <span class="js-weather weather"></span>
+      </div>
+    </div>
+    <div class="right_box box">
+      <form class="js-toDoForm">
+        <input type="text" placeholder="Write down things to do" />
+      </form>
+      <div class="active_box">
+        <h2>Active</h2>
+        <ul class="js-pendingList"></ul>
+      </div>
+      <div class="finish_box">
+        <h2>Finished</h2>
+        <ul class="js-finishedList"></ul>
+      </div>
+    </div>
+    <script src="js/clock.js"></script>
+    <script src="js/gretting.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>

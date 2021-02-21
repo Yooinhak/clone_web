@@ -1,0 +1,66 @@
+.right_box {
+  background-color: rgba(36, 63, 184, 0.2);
+  border-radius: 20px;
+  box-sizing: border-box;
+  width: 55%;
+  height: 50%;
+  bottom: 25%;
+  right: 5%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.toDo_box {
+  display: flex;
+}
+
+.js-toDoForm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+li span {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.js-toDoForm input {
+  font-style: italic;
+  font-size: 20px;
+  width: 95%;
+}
+
+.js-toDoForm input::placeholder {
+  text-align: center;
+  color: rgba(245, 245, 245, 0.7);
+}
+
+.active_box {
+  border-right: 1px dashed rgba(255, 255, 255, 0.5);
+}
+
+.active_box,
+.finish_box {
+  width: 49%;
+  display: inline-block;
+  height: 80%;
+  overflow-y: scroll;
+}
+
+.active_box::-webkit-scrollbar,
+.finish_box::-webkit-scrollbar {
+  display: none;
+}
